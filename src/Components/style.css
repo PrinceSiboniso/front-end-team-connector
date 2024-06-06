@@ -1,0 +1,289 @@
+.container {
+  min-width: 40rem;
+  position: relative;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0.25rem;
+  flex-direction: column;
+  display: grid;
+  height: 490px;
+  position: relative;
+  align-items: left;
+  z-index: 1;
+  background-color: aqua;
+  background-image: url("./img/background.jpg");
+  color: aquamarine;
+  right: 314px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+.text {
+  font-weight: bold;
+  font-size: xx-large;
+  color: rgb(255, 255, 255);
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 10;
+  height: 90;
+  margin-top: 60px;
+  flex-direction: column;
+  gap: 30px;
+}
+.inputs-use {
+  display: block;
+  
+  margin: auto;
+  margin-top: 60px;
+  flex-direction: column;
+  gap: 20px;
+ border: radius 22px;
+ height: max-content;
+  padding-left: 2rem;
+}
+.inputs-reg {
+  display: grid;
+  align-items: center;
+  margin: auto;
+  width: 100;
+  height: 90;
+  top: 10rem;
+}
+.input-reg input {
+  height: 50px;
+  width: 400px;
+  background-color: white;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 15px;
+  border-radius: 40px;
+}
+.input input {
+  height: 50px;
+  width: 400px;
+  background-color: white;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 15px;
+  border-radius: 40px;
+}
+.Account {
+  padding-left: -150px;
+  margin-top: 100px;
+  color: black;
+  font-size: 18px;
+  margin-bottom: -100px;
+}
+.Account span {
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+.submit-container {
+  display: flex;
+  margin: 60px auto;
+  padding-left: 700px;
+}
+.submit {
+  display: flex;
+  background: green;
+  color: wheat;
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 40px;
+  margin-right: 500px;
+}
+.login-page {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.outside-image {
+  position: absolute;
+  top: 20px; 
+  left: 20px;
+  width: 100px; 
+  height: auto;
+  z-index: 0; /* Ensure the image is behind the container */
+}
+
+.container {
+  min-width: 40rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  height: 520px;
+  align-items: left;
+  z-index: 1;
+  background-color: aqua;
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+  color: aquamarine;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.inputs {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: stretch;
+  border-radius: 30px;
+  gap: 100px;
+}
+
+.input-group input {
+  width: 48%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 10px; /* Equal width and height */
+  height: 10px;
+  border-radius: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.input {
+  margin-bottom: 10px;
+  display: grid;
+}
+
+.Account {
+  margin-bottom: 20px;
+}
+
+.submit-container {
+  margin-bottom: 100px;
+  padding-left: 30rem;
+}
+.submit-contain {
+  margin-top: 60px;
+  padding-left: 30rem;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.underline {
+  width: 50px;
+  height: 4px;
+  background-color: #000;
+  margin: 0 auto;
+}
+
+.create-account-link,
+.login-link {
+  text-decoration: none;
+  color: #007bff;
+  cursor: pointer;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.create-account-link:hover,
+.login-link:hover {
+  background-color: #0056b3;
+}
+.login-page {
+  position: relative;
+}
+
+.outside-image {
+  position: absolute;
+  margin-top: 30px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  top: 23.1%; 
+  left: 17.9%; 
+  width: 15%; 
+  height: 554px;
+  z-index: 1; 
+  background-image: url(./img/ZenCommLogo.PNG);
+ 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 600px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .text {
+    font-size: 20px;
+  }
+
+  .inputs-use {
+    margin-bottom: 10px;
+  }
+
+  .submit {
+    font-size: 14px;
+  }
+}
