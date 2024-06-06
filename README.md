@@ -1,2 +1,2 @@
 # front-end-team-connector
-zensr group project
+Zensar group project
